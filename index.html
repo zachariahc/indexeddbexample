@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Database Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="top-clipboard">
+      <br>
+      <i class="far fa-clipboard"></i>
+    </div>
+    <h1>Let's Do Stuff!</h1>
+<div id="page-wrapper">
+<!-- Form new to do items -->
+<form id="new-todo-form" action="#" method="POST">
+  <input type="text" name="new-todo" id="new-todo" placeholder="Enter a todo item..." required>
+</form>
+
+<!-- Todo Item List -->
+<ul id="todo-items"></ul>
+</div>
+<script src="db.js"></script>
+<script src="app.js"></script>
+  </body>
+</html>

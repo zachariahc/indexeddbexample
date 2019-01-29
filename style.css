@@ -1,0 +1,79 @@
+* {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #545454;
+  background: #e6e6e6;
+  background-image: url('https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+text-align: center;
+color: white;
+}
+
+.top-clipboard {
+  text-align: center;
+}
+
+.fa-clipboard {
+  font-size: 5em;
+  box-shadow: 1px 1px 10px rgb(133, 133, 133);
+  color: rgb(55, 55, 55);
+  text-align: center;
+  border: 1px solid rgb(122, 141, 157);
+  padding: .25em;
+  border-radius: .5em;
+  background-color: rgb(219, 172, 91);
+}
+#page-wrapper {
+  width: 80%;
+  margin: 2.5em auto;
+  background: #FFF;
+  box-shadow: 3px 5px 10px rgb(135, 135, 135);
+  border-radius: 3px;
+}
+
+#new-todo-form {
+  padding: 0.5em;
+  background: #0088CC;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#new-todo {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 3px;
+  border: 0;
+}
+
+#todo-items {
+  list-style: none;
+  padding: 0.5em 1em;
+  margin: 0;
+}
+
+#todo-items li {
+  font-size: 0.9em;
+  padding: 0.5em;
+  background: #FFF;
+  border-bottom: 1px solid #EEE;
+  margin: 0.5em 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
